@@ -1,11 +1,14 @@
 .wrapper {
+  display: grid;
+  text-align: center;
   background-color: var(--color-additional);
   height: 200px;
   width: 300px;
-  padding: 5px 5px;
   cursor: pointer;
+  border: solid 2px red;
+  border-radius: 5px;
 }
 
-p {
+h1 {
   font-size: var(--header1);
 }

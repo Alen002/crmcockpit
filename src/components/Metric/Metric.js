@@ -4,7 +4,8 @@ import "./Metric.css";
 const Metric = ({ result, description, icon }) => {
   return (
     <div className="wrapper">
-      <p>23</p>
+      <h1>{result}</h1>
+      <p>{description}</p>
     </div>
   );
 };
