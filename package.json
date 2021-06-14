@@ -12,6 +12,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "dev": "parcel public/index.html",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "parcel": "^1.12.3",
     "prettier": "^2.3.1"
   }
 }
