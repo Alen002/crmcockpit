@@ -1,0 +1,11 @@
+.wrapper {
+  background-color: var(--color-additional);
+  height: 200px;
+  width: 300px;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+p {
+  font-size: var(--helperText);
+}
