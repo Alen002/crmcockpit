@@ -21,6 +21,7 @@ body {
   --primary-300: #2a8ccd;
   --primary-400: #067ecf;
   --primary-500: #386dae;
+  --primary-600: #1553a0;
 
   /* Specific Color Scheme */
   --green-100: #ace073;
@@ -28,7 +29,10 @@ body {
 
   --yellow-100: #fdb916;
   --orange-100: #ee7816;
+
   --red-100: #ca0a15;
+
+  --white-100: #ffffff;
 
   /* Color Text Scheme */
   --text-100: #939393;
