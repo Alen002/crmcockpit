@@ -4,7 +4,7 @@
   min-width: 350px;
   max-width: 450px;
   cursor: pointer;
-  color: var(--text-200);
+  color: var(--text-100);
   padding: 5px 5px;
   border-radius: 5px;
   box-shadow: rgba(147, 147, 147, 0.6) 0px 7px 10px 0px; /*  hex text-100 to rgba */
@@ -47,6 +47,10 @@
 
 .h1 {
   font-size: var(--header1);
+}
+
+.employee-general h4 {
+  color: var(--text-200);
 }
 
 .employee-general h4 {
