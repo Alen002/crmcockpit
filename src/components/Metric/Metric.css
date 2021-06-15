@@ -1,9 +1,10 @@
-.wrapper {
+.wrapper-metric {
   display: grid;
   text-align: center;
   background-color: var(--white-100);
   height: 200px;
-  width: 300px;
+  max-width: 270px;
+  width: auto;
   cursor: pointer;
   border: solid 3px var(--green-200);
   border-radius: 5px;

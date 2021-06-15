@@ -4,7 +4,7 @@ import { FaUserAlt } from "react-icons/fa";
 
 const Metric = ({ result, description, icon }) => {
   return (
-    <div className="wrapper">
+    <div className="wrapper-metric">
       <FaUserAlt />
       <h1>{result}</h1>
       <p>{description}</p>
