@@ -12,11 +12,30 @@ body {
   margin: 0;
 }
 
+/**** Color and Typography variables for using in the whole application ****/
+
 :root {
-  /*  Color Scheme */
-  --color-primary: #000000;
-  --color-secondary: #dd0000;
-  --color-additional: #ffce00;
+  /* Primary Color Monochromatic Scheme */
+  --primary-100: #3fa4e8;
+  --primary-200: #75acd1;
+  --primary-300: #2a8ccd;
+  --primary-400: #067ecf;
+  --primary-500: #386dae;
+
+  /* Specific Color Scheme */
+  --green-100: #ace073;
+  --green-200: #52ae32;
+
+  --yellow-100: #fdb916;
+  --orange-100: #ee7816;
+  --red-100: #ca0a15;
+
+  /* Color Text Scheme */
+  --text-100: #939393;
+  --text-200: #505050;
+  --text-300: #232323;
+  --text-400: #000000;
+  --text-inverted: #ffffff;
 
   /* Typography */
   --header1: 4.2rem;
