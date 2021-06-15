@@ -12,20 +12,20 @@ const Employee = ({
     <div className="wrapper-employee">
       <h5>{employeeFunction}</h5>
 
-      <div className="info">
-        <div className="info-general">
+      <div className="employee">
+        <div className="employee-general">
           <h4>{employeeName}</h4>
           <ul>
             <li>{employeeFunction}</li>
             <li>{employeeDepartment}</li>
             <li>{employeeCompany}</li>
           </ul>
-          <div className="info-icons">
-            <FaPhoneAlt className="info-icons-phone" />
-            <FaEnvelope />
+          <div className="employee-icons">
+            <FaPhoneAlt className="employee-icons-phone" />
+            <FaEnvelope className="employee-icons-envelope" />
           </div>
         </div>
-        <FaUserCircle className="info-icon" />
+        <FaUserCircle className="employee-icon" />
       </div>
     </div>
   );

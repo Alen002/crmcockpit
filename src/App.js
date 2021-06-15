@@ -8,7 +8,7 @@ function App() {
       <Metric icon={"FaCodepen"} result={24} description={"Ansprechpartner"} />
       <Employee
         employeeFunction={"Vorstand"}
-        employeeName={"Stefan Berner"}
+        employeeName={"Steven Berner"}
         employeeDepartment={"Geschäftsführung"}
         employeeCompany={"Working Energy GmbH Niederlassung am .."}
       />

@@ -1,57 +1,65 @@
 .wrapper-employee {
-  background-color: var(--primary-200);
   height: 200px;
   width: auto;
   min-width: 350px;
   max-width: 450px;
   cursor: pointer;
-  border: solid 3px var(--green-200);
-
+  color: var(--text-200);
   padding: 5px 5px;
+  border-radius: 5px;
+  box-shadow: rgba(147, 147, 147, 0.6) 0px 7px 10px 0px; /*  hex text-100 to rgba */
 }
 
-.info {
+.employee {
   margin-top: 20px;
-  background-color: red;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
-.info-general {
+.employee-general {
   padding-left: 20px;
-  border-left: solid 10px;
+  border-left: solid 10px var(--primary-400);
 }
 
-.info-icons {
+.employee-icons {
   margin-top: 10px;
+  padding-top: 10px;
+  border-top: solid 1px var(--text-100);
 }
 
-.info-icons-phone {
+.employee-icons-phone {
   margin-right: 20px;
+  color: var(--primary-400);
 }
 
-.info-icon {
+.employee-icons-envelope {
+  color: var(--primary-400);
+}
+
+.employee-icon {
   width: 50px;
   height: 50px;
   margin-right: 30px;
+  color: var(--primary-400);
 }
 
-h1 {
+.h1 {
   font-size: var(--header1);
 }
 
-h4 {
+.employee-general h4 {
   padding-top: 10px;
   padding-bottom: 5px;
+  border-bottom: solid 1px var(--text-100);
 }
 
-ul {
+.employee-general ul {
   list-style-type: none;
   padding: 2px;
 }
 
-li {
-  line-height: 25px;
+.employee-general ul li {
+  line-height: 20px;
 }
