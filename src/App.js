@@ -3,6 +3,7 @@ import Metric from "./components/Metric/Metric";
 import Employee from "./components/Employee/Employee";
 import Notes from "./components/Notes/Notes";
 import Responsibility from "./components/Responsibility/Responsibility";
+import General from "./components/General/General";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         employeeFirstName="Mark Forster"
         employeeSecondName="Uwe Kunz"
       />
+      <General />
     </div>
   );
 }
