@@ -1,5 +1,6 @@
 import React from "react";
 import "./Responsibility.css";
+
 import { FaUserCircle, FaPen } from "react-icons/fa";
 
 const Responsibility = ({ employeeFirstName, employeeSecondName }) => {

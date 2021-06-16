@@ -17,7 +17,7 @@ const General = () => {
             <div>
               {/* <h4>Firstname</h4> */}
               <p>
-                Gewinnstrasse 9<br />
+                Mettlertrasse 9<br />
                 60233 Frankfurt
                 <br /> Germany
               </p>

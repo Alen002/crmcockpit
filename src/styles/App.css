@@ -1,6 +1,45 @@
 .main-wrapper {
   margin: 0 auto;
   align-items: center;
+  padding: 0 100px;
+}
+
+/*** Responsive Responsibility Section ***/
+/* Mobile */
+@media (max-width: 640px) {
+  .wrapper-responsive-responsibility {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1008px) {
+  .wrapper-responsive-responsibility {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/*** Responsive Metric Section ***/
+/* Mobile */
+@media (max-width: 640px) {
+  .wrapper-responsive-metric {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1008px) {
+  .wrapper-responsive-metric {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 /*** Responsive Employee Section ***/
@@ -17,6 +56,22 @@
   .wrapper-responsive-employee {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+  }
+}
+
+/**** Main wrapper ****/
+
+/* Mobile */
+@media (max-width: 640px) {
+  .main-wrapper {
+    padding: 0 0px;
+  }
+}
+/* Desktop */
+@media (min-width: 1008px) {
+  .main-wrapper {
+    padding: 0 40px;
+    width: 1400px;
   }
 }

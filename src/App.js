@@ -12,37 +12,41 @@ function App() {
       <Navbar />
       <div className="main-wrapper">
         <General />
-        <Metric
-          icon={"FaCodepen"}
-          result={24}
-          description={"Ansprechpartner"}
-        />
-        <Metric
-          icon={"FaCodepen"}
-          result={24}
-          description={"Ansprechpartner"}
-        />
-        <Metric
-          icon={"FaCodepen"}
-          result={24}
-          description={"Ansprechpartner"}
-        />
-        <Metric
-          icon={"FaCodepen"}
-          result={24}
-          description={"Ansprechpartner"}
-        />
-        <Metric
-          icon={"FaCodepen"}
-          result={24}
-          description={"Ansprechpartner"}
-        />
-        <Responsibility
-          employeeFirstName="Mark Forster"
-          employeeSecondName="Uwe Kunz"
-        />
+        <div className={"wrapper-responsive-responsibility"}>
+          <Responsibility
+            employeeFirstName="Mark Forster"
+            employeeSecondName="Uwe Kunz"
+          />
 
-        <Notes />
+          <Notes />
+        </div>
+        <div className="wrapper-responsive-metric">
+          <Metric
+            icon={"FaCodepen"}
+            result={24}
+            description={"Ansprechpartner"}
+          />
+          <Metric
+            icon={"FaCodepen"}
+            result={24}
+            description={"Ansprechpartner"}
+          />
+          <Metric
+            icon={"FaCodepen"}
+            result={24}
+            description={"Ansprechpartner"}
+          />
+          <Metric
+            icon={"FaCodepen"}
+            result={24}
+            description={"Ansprechpartner"}
+          />
+          <Metric
+            icon={"FaCodepen"}
+            result={24}
+            description={"Ansprechpartner"}
+          />
+        </div>
         <div className="wrapper-responsive-employee">
           <Employee
             employeeFunction={"Vorstand"}
@@ -58,7 +62,7 @@ function App() {
           />
           <Employee
             employeeFunction={"Leiter Einkauf"}
-            employeeName={"Kim Devon"}
+            employeeName={"Jose Garcia"}
             employeeDepartment={"Einkauf"}
             employeeCompany={"Working Energy GmbH Niederlassung am .."}
           />
