@@ -29,5 +29,7 @@
   width: auto;
 }
 
-#myChart {
+.generalinfo-headline {
+  margin-bottom: 10px;
+  background-color: var(--grey-100);
 }

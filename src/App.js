@@ -23,7 +23,6 @@ function App() {
         employeeSecondName="Uwe Kunz"
       />
       <General />
-      <Chart />
     </div>
   );
 }

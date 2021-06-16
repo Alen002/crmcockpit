@@ -1,4 +1,5 @@
 import React from "react";
+import Chart from "../Chart/Chart";
 import "./General.css";
 import {
   FaPen,
@@ -13,34 +14,54 @@ import {
 const General = () => {
   return (
     <div className="wrapper-generalinfo">
-      <div className="notes-header">
+      <div className="notes-header generalinfo-headline">
         <h5 className="notes-header-headline">Forcework Machine Gmbh </h5>
         <FaStar className="notes-header-icon" />
       </div>
       <div className="wrapper-generalinfos">
         <div className="wrapper-generalinfo-layout">
-          <h5>Zuständige Mitarb.</h5>
+          <h3>Auftrag / 1015555</h3>
           <div className="generalinfo">
             <div>
-              <h4>Firstname</h4>
-              <ul className="display-none">
-                <li>blank</li>
-                <li>blank</li>
-                <li>blank</li>
-              </ul>
+              {/* <h4>Firstname</h4> */}
+              <p>
+                Gewinnstrasse 9<br />
+                60233 Frankfurt
+                <br /> Germany
+              </p>
+              <br />
+              <p>
+                <FaPhone /> <a href="#">(+49) (06993) 333 3433 - 43</a>
+                <br />
+                <FaFax /> <a href="#">(+49) (06993) 333 3433 - 0</a>
+                <br />
+                <FaEnvelope /> <a href="#">info@forcework-machine.com</a>
+                <br />
+                <FaGlobe /> <a href="#">http://forcework-machine.com</a>
+                <br />
+              </p>
             </div>
           </div>
         </div>
 
         <div className="wrapper-generalinfo-layout">
-          <h5>Zuständige Mitarb.</h5>
+          <h5 className="display-none">second-column</h5>
           <div className="generalinfo">
             <div>
-              <h4>Secondname</h4>
-              <ul className="display-none">
-                <li>blank</li>
-                <li>blank</li>
-                <li>blank</li>
+              {/*  <h4>Secondname</h4> */}
+              <ul className="">
+                <li>
+                  <h5>Branche</h5>
+                  Maschinenbau
+                </li>
+                <li>
+                  <h5>Suchbegriff</h5>
+                  FORCEWORK MACHINE
+                </li>
+                <li>
+                  <h5>Sprache</h5>
+                  Deutsch (DE)
+                </li>
               </ul>
             </div>
           </div>
@@ -49,7 +70,8 @@ const General = () => {
           <h5>Auftragseingang/Umsatz</h5>
           <div className="generalinfo">
             <div>
-              <h4>Gesamt</h4>
+              {/* <h4>Chart</h4> */}
+              <Chart />
               <ul className="display-none">
                 <li>blank</li>
                 <li>blank</li>
