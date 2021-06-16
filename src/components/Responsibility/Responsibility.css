@@ -1,0 +1,24 @@
+.wrapper-responsibility {
+  height: 200px;
+  width: auto;
+  min-width: 350px;
+  max-width: 700px;
+  cursor: pointer;
+  color: var(--text-100);
+  padding: 5px 5px;
+  border-radius: 5px;
+  box-shadow: rgba(147, 147, 147, 0.6) 0px 7px 10px 0px; /*  hex text-100 to rgba */
+}
+
+.display-none {
+  color: var(--white-100);
+}
+
+.icon-green {
+  color: var(--green-100);
+}
+
+.employee-general-green {
+  padding-left: 20px;
+  border-left: solid 10px var(--green-100);
+}

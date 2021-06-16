@@ -7,7 +7,7 @@ const Notes = () => {
     <div className="wrapper-notes">
       <div className="notes">
         <div className="notes-header">
-          <h5 className="notes-header-headline">Zuständigkeit </h5>
+          <h5 className="notes-header-headline">Bemerkung </h5>
           <FaPen className="notes-header-icon" />
         </div>
         <p>
