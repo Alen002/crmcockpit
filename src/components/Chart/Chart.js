@@ -14,14 +14,14 @@ const Chart = () => {
               datasets: [
                 {
                   // Label for bars
-                  label: "total count/value",
-                  // Data or value of your each variable
-                  data: [1552, 1319, 613, 1400],
+                  label: "Gesamt",
+                  // Data or value of each variable
+                  data: [20, 15, 35, 30],
                   // Color of each bar
-                  backgroundColor: ["aqua", "green", "red", "yellow"],
+                  backgroundColor: ["#386dae", "#386dae", "#386dae", "#386dae"],
                   // Border color of each bar
-                  borderColor: ["aqua", "green", "red", "yellow"],
-                  borderWidth: 0.5,
+                  /* borderColor: ["aqua", "green", "red", "yellow"],
+                  borderWidth: 0.5, */
                 },
               ],
             }}
