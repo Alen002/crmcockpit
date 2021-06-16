@@ -1,0 +1,50 @@
+.navbar-left,
+.navbar-right {
+  display: inline-block;
+}
+
+.navbar {
+  position: relative;
+}
+
+.navbar-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.navbar-brand,
+.navbar .nav-link {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-brand,
+.navbar .nav-link {
+  display: inline-block;
+  padding: 15px;
+}
+
+@media (max-width: 842px) {
+  .navbar-right,
+  .navbar-left {
+    display: block;
+  }
+
+  .navbar-right {
+    position: static;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navbar .nav-link {
+    display: block;
+  }
+}
+
+.user-image {
+  width: 35px;
+  height: 35px;
+  margin-top: -7px;
+  border-radius: 30px;
+}

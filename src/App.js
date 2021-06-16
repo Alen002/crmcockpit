@@ -4,11 +4,13 @@ import Employee from "./components/Employee/Employee";
 import Notes from "./components/Notes/Notes";
 import Responsibility from "./components/Responsibility/Responsibility";
 import General from "./components/General/General";
+import Navbar from "./components/Navbar/Navbar";
 import Chart from "./components/Chart/Chart";
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Metric icon={"FaCodepen"} result={24} description={"Ansprechpartner"} />
       <Employee
         employeeFunction={"Vorstand"}
