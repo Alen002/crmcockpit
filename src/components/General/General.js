@@ -1,15 +1,7 @@
 import React from "react";
 import Chart from "../Chart/Chart";
 import "./General.css";
-import {
-  FaPen,
-  FaStar,
-  FaPhone,
-  FaFax,
-  FaEnvelope,
-  FaGlobe,
-  FaUserCircle,
-} from "react-icons/fa";
+import { FaStar, FaPhone, FaFax, FaEnvelope, FaGlobe } from "react-icons/fa";
 
 const General = () => {
   return (
@@ -72,11 +64,11 @@ const General = () => {
             <div>
               {/* <h4>Chart</h4> */}
               <Chart />
-              <ul className="display-none">
+              {/* <ul className="display-none">
                 <li>blank</li>
                 <li>blank</li>
                 <li>blank</li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>

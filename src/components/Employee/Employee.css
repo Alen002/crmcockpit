@@ -1,13 +1,16 @@
 .wrapper-employee {
   height: 200px;
   width: auto;
-  min-width: 350px;
+  /* min-width: 350px; */
   max-width: 450px;
   cursor: pointer;
   color: var(--text-100);
   padding: 5px 5px;
   border-radius: 5px;
   box-shadow: rgba(147, 147, 147, 0.6) 0px 7px 10px 0px; /*  hex text-100 to rgba */
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
 .employee {
