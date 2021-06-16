@@ -28,6 +28,7 @@
 
 .wrapper-generalinfo-layout {
   width: auto;
+  margin-top: 20px;
 }
 
 .generalinfo-headline {
@@ -37,6 +38,13 @@
 
 .generalinfo a {
   color: var(--primary-500);
+}
+
+.generalinfo ul {
+  list-style: none;
+}
+.generalinfo li {
+  margin-top: 10px;
 }
 
 /**** Media Queries ****/
