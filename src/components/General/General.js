@@ -7,7 +7,7 @@ const General = () => {
   return (
     <div className="wrapper-generalinfo">
       <div className="notes-header generalinfo-headline">
-        <h5 className="notes-header-headline">Forcework Machine Gmbh </h5>
+        <h5 className="notes-header-headline">Forcework Machine GmbH </h5>
         <FaStar className="notes-header-icon" />
       </div>
       <div className="wrapper-generalinfos">

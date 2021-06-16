@@ -15,12 +15,11 @@
 }
 
 /* Tablet */
-@media (min-width: 641px) {
+@media (min-width: 641px) and (max-width: 1007px) {
   .wrapper-responsive-responsibility {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: red;
   }
 }
 

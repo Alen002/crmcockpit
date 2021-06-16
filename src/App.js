@@ -12,12 +12,11 @@ function App() {
       <Navbar />
       <div className="main-wrapper">
         <General />
-        <div className={"wrapper-responsive-responsibility"}>
+        <div className="wrapper-responsive-responsibility">
           <Responsibility
             employeeFirstName="Mark Forster"
             employeeSecondName="Uwe Kunz"
           />
-
           <Notes />
         </div>
         <div className="wrapper-responsive-metric">
