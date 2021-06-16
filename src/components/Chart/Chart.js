@@ -6,7 +6,7 @@ const Chart = () => {
     <div>
       <div className="App">
         <h4>Gesamt 100 Mio EUR</h4>
-        <div style={{ maxWidth: "650px" }}>
+        <div style={{ maxWidth: "700px", height: "300px" }}>
           <Bar
             data={{
               // Name of the variables on x-axies for each bar
