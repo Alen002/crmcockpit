@@ -35,6 +35,10 @@
   background-color: var(--grey-100);
 }
 
+.generalinfo a {
+  color: var(--primary-500);
+}
+
 /**** Media Queries ****/
 
 /*** Mobile ***/

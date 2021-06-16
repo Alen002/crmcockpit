@@ -26,26 +26,14 @@ function App() {
             result={24}
             description={"Ansprechpartner"}
           />
+          <Metric icon={"FaCodepen"} result={100} description={"Aktivitäten"} />
           <Metric
             icon={"FaCodepen"}
-            result={24}
-            description={"Ansprechpartner"}
+            result={20}
+            description={"opportunities"}
           />
-          <Metric
-            icon={"FaCodepen"}
-            result={24}
-            description={"Ansprechpartner"}
-          />
-          <Metric
-            icon={"FaCodepen"}
-            result={24}
-            description={"Ansprechpartner"}
-          />
-          <Metric
-            icon={"FaCodepen"}
-            result={24}
-            description={"Ansprechpartner"}
-          />
+          <Metric icon={"FaCodepen"} result={0} description={"Angebote"} />
+          <Metric icon={"FaCodepen"} result={0} description={"Aufträge"} />
         </div>
         <div className="wrapper-responsive-employee">
           <Employee
