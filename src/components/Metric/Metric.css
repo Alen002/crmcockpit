@@ -14,3 +14,8 @@
 h1 {
   font-size: var(--header1);
 }
+
+.wrapper-metric:hover {
+  background-color: var(--primary-100);
+  color: var(--white-100);
+}
