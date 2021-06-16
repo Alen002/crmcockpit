@@ -6,10 +6,10 @@ import userImage from "./userimage.png";
 const Navbar = () => {
   return (
     <nav class="navbar">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand logo-color" href="#">
         <FaXing />
       </a>
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand logo-color" href="#">
         Sales
       </a>
 
