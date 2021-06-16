@@ -1,0 +1,31 @@
+.wrapper-notes {
+  height: 200px;
+  width: auto;
+  min-width: 350px;
+  max-width: 700px;
+  cursor: pointer;
+  color: var(--text-100);
+  padding: 5px 5px;
+  border-radius: 5px;
+  box-shadow: rgba(147, 147, 147, 0.6) 0px 7px 10px 0px; /*  hex text-100 to rgba */
+}
+
+.notes-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 1px black;
+  height: 45px;
+  padding: 4px;
+}
+
+.notes-header-headline {
+  font-size: var(--header5);
+  color: var(--text-200);
+}
+
+.notes-header-icon {
+  width: 20px;
+  height: 20px;
+  color: var(--text-200);
+}

@@ -1,6 +1,7 @@
 import "./styles/App.css";
 import Metric from "./components/Metric/Metric";
 import Employee from "./components/Employee/Employee";
+import Notes from "./components/Notes/Notes";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
         employeeDepartment={"Geschäftsführung"}
         employeeCompany={"Working Energy GmbH Niederlassung am .."}
       />
+      <Notes />
+      <Notes />
     </div>
   );
 }
