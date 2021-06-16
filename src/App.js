@@ -16,7 +16,10 @@ function App() {
       />
       <Notes />
 
-      <Responsibility employeeName="Mark Forster" />
+      <Responsibility
+        employeeFirstName="Mark Forster"
+        employeeSecondName="Uwe Kunz"
+      />
     </div>
   );
 }

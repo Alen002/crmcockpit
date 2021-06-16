@@ -8,6 +8,8 @@
   padding: 5px 5px;
   border-radius: 5px;
   box-shadow: rgba(147, 147, 147, 0.6) 0px 7px 10px 0px; /*  hex text-100 to rgba */
+  display: flex;
+  flex-direction: column;
 }
 
 .display-none {
@@ -21,4 +23,13 @@
 .employee-general-green {
   padding-left: 20px;
   border-left: solid 10px var(--green-100);
+}
+
+.wrapper-employees {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.wrapper-employee-layout {
+  width: auto;
 }
