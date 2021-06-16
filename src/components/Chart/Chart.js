@@ -19,9 +19,6 @@ const Chart = () => {
                   data: [20, 15, 35, 30],
                   // Color of each bar
                   backgroundColor: ["#386dae", "#386dae", "#386dae", "#386dae"],
-                  // Border color of each bar
-                  /* borderColor: ["aqua", "green", "red", "yellow"],
-                  borderWidth: 0.5, */
                 },
               ],
             }}
