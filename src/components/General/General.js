@@ -21,7 +21,7 @@ const General = () => {
         <div className="wrapper-generalinfo-layout">
           <h5>Zuständige Mitarb.</h5>
           <div className="generalinfo">
-            <div className="generalinfo-general-green">
+            <div>
               <h4>Firstname</h4>
               <ul className="display-none">
                 <li>blank</li>
@@ -31,11 +31,25 @@ const General = () => {
             </div>
           </div>
         </div>
+
         <div className="wrapper-generalinfo-layout">
           <h5>Zuständige Mitarb.</h5>
           <div className="generalinfo">
-            <div className="generalinfo-general-green">
+            <div>
               <h4>Secondname</h4>
+              <ul className="display-none">
+                <li>blank</li>
+                <li>blank</li>
+                <li>blank</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="wrapper-generalinfo-layout">
+          <h5>Auftragseingang/Umsatz</h5>
+          <div className="generalinfo">
+            <div>
+              <h4>Gesamt</h4>
               <ul className="display-none">
                 <li>blank</li>
                 <li>blank</li>

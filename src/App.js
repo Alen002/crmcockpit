@@ -4,6 +4,7 @@ import Employee from "./components/Employee/Employee";
 import Notes from "./components/Notes/Notes";
 import Responsibility from "./components/Responsibility/Responsibility";
 import General from "./components/General/General";
+import Chart from "./components/Chart/Chart";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         employeeSecondName="Uwe Kunz"
       />
       <General />
+      <Chart />
     </div>
   );
 }

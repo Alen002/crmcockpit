@@ -20,16 +20,14 @@
   color: var(--green-100);
 }
 
-.generalinfo-general-green {
-  padding-left: 20px;
-  border-left: solid 10px var(--green-100);
-}
-
 .wrapper-generalinfos {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .wrapper-generalinfo-layout {
   width: auto;
+}
+
+#myChart {
 }
