@@ -10,6 +10,7 @@
   box-shadow: rgba(147, 147, 147, 0.6) 0px 7px 10px 0px; /*  hex text-100 to rgba */
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .display-none {
